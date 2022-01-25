@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '叔叔很生气';
-    if (score <= 99) return '你所热爱的就是你的生活';
-    if (score <= 149) return '您就是蒙古上单？';
-    if (score <= 199) return '您马什么时候4啊？';
-    return '人？';
+    if (score <= 49) return '一顿饭几个小亮？';
+    if (score <= 99) return '古川本舖赞了你';
+    if (score <= 149) return '精彩的Piano Lesson!';
+    if (score <= 199) return '成功跨过world borderline';
+    return '欢迎来到月城';
 }
 
 function toStr(obj) {
