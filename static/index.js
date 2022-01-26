@@ -348,11 +348,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '一顿饭几个小亮？';
-        if (score <= 99) return '古川本舖赞了你';
-        if (score <= 149) return '精彩的Piano Lesson!';
-        if (score <= 199) return '欢迎来到月城';
-        return '人？';
+        if (score <= 49) return '古川本舖赞了你';
+        if (score <= 99) return '需要来一节钢琴课？';
+        if (score <= 149) return '丝滑似鱼游夜';
+        if (score <= 199) return '有没有girlfriend哇';
+        return '何不飞上月梢';
     }
 
     w.toStr = function(obj) {
