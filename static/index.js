@@ -349,9 +349,9 @@
         }
         SubmitResults();
         if (score <= 49) return '古川本舖赞了你';
-        if (score <= 99) return '需要来一节钢琴课？';
+        if (score <= 99) return '“店长，再来节钢琴课！”';
         if (score <= 149) return '丝滑似鱼游夜';
-        if (score <= 199) return '有没有girlfriend哇';
+        if (score <= 199) return '是不是用了魔法哇';
         return '何不飞上月梢';
     }
 
